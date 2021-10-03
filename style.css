@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 100%;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100vw;
+}
+
+article {
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    background-image: url("images/pattern-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10vw;
+}
+
+.image {
+    display: block;
+    border-radius: 2%;
+    box-shadow: 0 70px 50px -40px rgba(0, 0, 0, .25);
+    max-width: 75vw;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 100vw;
+}
+
+.tanya,
+.john {
+    position: absolute;
+    top: 0;
+    left: 100vw;
+}
+
+.active {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.red {
+    background-color: red;
+}
