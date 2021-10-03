@@ -186,4 +186,10 @@ h3 {
         top: 45%;
         left: 45%;
     }
+
+    .quotes {
+        position: absolute;
+        top: 55%;
+        left: 43%;
+    }
 }
