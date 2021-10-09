@@ -1,7 +1,6 @@
 const sectionTanya = document.querySelector('.tanya');
 const sectionJohn = document.querySelector('.john');
 const bar = document.querySelector('.bar');
-bar.classList.add('red');
 
 bar.addEventListener('click', sectionChange);
 
